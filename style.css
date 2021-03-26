@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #009a9e;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+h3 {
+  margin: 6px;
+}
+
+.user-form {
+  position: relative;
+}
+
+.user-form input {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem;
+  font-family: inherit;
+}
+
+.btn {
+  background-color: transparent;
+  color: gray;
+  border: 0;
+  cursor: pointer;
+  font-size: 25px;
+  top: 10px;
+  left: 200px;
+  transition: transform 0.3s ease;
+  position: absolute;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.card {
+  background-color: cornsilk;
+  width: 25%;
+  display: block;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  border-radius: 50px;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6px;
+}
